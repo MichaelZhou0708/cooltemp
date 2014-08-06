@@ -1,0 +1,413 @@
+/**
+ *
+ *
+ *
+ *
+/***************************************************************************/
+/****************************  $Media Queries  *****************************/
+/*
+ * The styles by default are for desktops devices with resolutions
+ * than 1200px of width or more.
+ */
+/**
+ *
+ *
+/*****************  $Medium devices (Desktops) <= 1200px  ******************/
+@media handheld, only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 1.7em;
+  }
+  .boxes .boxes-title h4 {
+    font-size: 1.2em;
+  }
+  .boxes .boxes-title h5 {
+    font-size: 1em;
+  }
+  .btn.btn-author {
+    min-width: 145px;
+  }
+  .btn.btn-filter {
+    margin: 0 2px;
+    padding: 6px 30px 6px 10px;
+  }
+  .btn.btn-icon {
+    margin-top: 20px;
+  }
+  .btn.btn-social.alt {
+    background-size: 50px;
+    height: 55px;
+    width: 55px;
+  }
+  .company .team .team-item {
+    width: 185px;
+  }
+  .experts h2 {
+    font-size: 3.3em;
+  }
+  .footer-bottom .bottom-menu>li>a {
+    padding: 0 7px;
+  }
+  .form-search .form-control {
+    width: 150px;
+  }
+  .invest-item {
+    width: 293px;
+  }
+  .invest-item .links .btn-icon {
+    margin-top: 0;
+  }
+  .news-item {
+    width: 330px;
+  }
+  .our-numbers .chart {
+    line-height: 232px;
+    width: 150px;
+  }
+  .proccess li {
+    height: 120px;
+  }
+  .proccess li span {
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+  }
+  .proccess li.next {
+    line-height: 100px;
+    width: 45px;
+  }
+  .property-details .property-details-item {
+    height: 480px;
+    width: 216px;
+  }
+  .property-details.big .property-details-item .item-thumbnail {
+    margin: -20px 20px 20px -20px;
+  }
+  .property-item figure {
+    width: 70px;
+  }
+  .properties-tabs .property-item {
+    max-width: 283px;
+  }
+  .properties-tabs .property-item figure {
+    margin: 0 10px 10px 0;
+  }
+  .related-topic-item {
+    width: 210px;
+  }
+  .single-property .nav-tabs>li>a {
+    font-size: 0.9em;
+    padding: 10px 7px;
+  }
+  .sponsors{
+
+    margin-top: 20px;
+  }
+  .team .team-item {
+    width: 200px;
+  }
+}
+/**
+ *
+ *
+/*******************  $Small devices (Tablets) <= 992px  *******************/
+@media handheld, only screen and (max-width: 992px) {
+  .btn.btn-filter {
+    margin-bottom: 10px;
+  }
+  .copy,
+  .footer-bottom .bottom-menu {
+    text-align: center;
+  }
+  .company,
+  .company h5 {
+    margin-top: 20px;
+  }
+  .dropdown-menu>li>a {
+    text-align: left;
+  }
+  .experts h2 {
+    width: 95%;
+  }
+  .header-top,
+  .header-top .right {
+    text-align: center;
+  }
+  .invest-filter .boxes-title {
+    float: none;
+    margin-bottom: 10px;
+  }
+  .navbar .navbar-nav {
+    clear: both;
+    float: none;
+    text-align: center;
+    width: auto;
+  }
+  .navbar-nav>li {
+    display: inline-block;
+    float: none;
+  }
+  .property-details {
+    margin-top: 20px;
+  }
+  .searchby {
+    text-align: center;
+  }
+  .searchby h6 {
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .searchby .form-group {
+    margin-bottom: 20px;
+  }
+  .single-property .slide .thumbs li {
+    width: 105px;
+  }
+  .single-property .slide .pageLink {
+    height: 105px;
+    line-height: 102px;
+  }
+  .sponsors{
+
+    margin-top: 20px;
+  }
+  .team {
+    text-align: center;
+  }
+  .team .team-item {
+    display: inline-block;
+    float: none;
+    width: 250px;
+  }
+}
+/**
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 768px  *****************/
+@media handheld, only screen and (max-width: 768px) {
+  .agents,
+  .property-details {
+    text-align: center;
+  }
+  .btn.btn-author {
+    display: block;
+    margin: 5px 0;
+  }
+  .experts h2 {
+    height: auto;
+    line-height: 80px;
+  }
+  .header-bottom h1 {
+    margin: 0 0 30px 0;
+  }
+  .house-dreams .quick-search {
+    position: static;
+    width: 100%;
+  }
+  .navbar .navbar-nav>li {
+    text-align: left;
+    width: 100%;
+  }
+  .navbar .navbar-nav>li>a {
+    height: 40px;
+    line-height: 40px;
+  }
+  .navbar .navbar-brand {
+    margin-left: 15px;
+  }
+  .navbar-toggle {
+    border: 2px solid #fff;
+    margin: 15px;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  .news-item {
+    width: auto;
+  }
+  .news-item-bottom .author,
+  .news-item-bottom .stars,
+  .news-item-bottom .comments {
+    display: block;
+    float: none;
+    margin: 5px 0;
+    width: 100%;
+  }
+  .onsale {
+    height: auto;
+  }
+  .post figure,
+  .post .main-figure {
+    width: auto;
+  }
+  .post-author figure {
+    position: static;
+  }
+  .post-author .content {
+    border: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+  }
+  .post-comments .post-comment-item figure {
+    position: static;
+    text-align: left;
+  }
+  .post-comments .post-comment-item .boxes {
+    margin: 20px 0;
+  }
+  .post-comments .post-comment-item.reply {
+    margin: 20px 0;
+  }
+  .property-details.big .property-details-item .features {
+    border: none;
+    clear: both;
+    float: none;
+    margin: 20px 0 20px 110px;
+  
+  }
+  .property-details.big .property-details-item .features li {
+    display: block;
+  }
+  .property-details.big .property-details-item .item-thumbnail {
+    margin: 0 0 20px 0;
+  }
+  .properties-tabs .nav-tabs li {
+    width: 100%;
+    border-left: 1px solid #ebebeb;
+  }
+  .properties-tabs .nav-tabs li:first-child {
+    border-left: none;
+  }
+  .related-topic-item {
+    float: none;
+    margin: 10px auto;
+  }
+  .single-property .nav-tabs>li {
+    width: 100%;
+  }
+  .single-property .share .btn {
+    display: block;
+    margin: 5px 0;
+  }
+  .single-property .share .btn:first-child {
+    margin-left: 0;
+  }
+  .single-property .video {
+    height: 220px;
+  }
+  .super-offers .property-item,
+  .super-offers .property-item.big {
+    width: 100%;
+  }
+  .form-search .form-group i {
+    top: 0;
+  }
+  .header-bottom h1 {
+    margin: 0 0 10px 0;
+  }
+  .header-bottom .breadcrumb {
+    text-align: left;
+  }
+  .single-property .slide .thumbs li {
+    width: 70px;
+    margin: 8px 2px 0;
+    display: inline-block !important;
+  }
+  .single-property .slide .pageLink {
+    display: none;
+  }
+  .sponsors{
+
+    margin-top: 20px;
+  }
+  .invest-item {
+    width: 273px;
+  }
+  .property-item {
+    min-height: 92px;
+  }
+  .properties-tabs .property-item {
+    float: none;
+    display: inline-block;
+  }
+  .pagination {
+    float: none !important;
+  }
+  .property-details.big .property-details-item {
+    margin: 0 15px 26px 15px;
+  }
+  .boxes-title.home {
+    padding: 0 100px 0 0;
+  }
+   div.invest-item.boxes.miami.isotope-item{
+    left: 25%!important;
+  }
+  div.invest-item.boxes.hotel.isotope-item{
+    left: 25%!important;
+  }
+  div.invest-item.boxes.isotope-item{
+    left: 25%!important;    
+  }
+  
+}
+/**
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 500px  *****************/
+@media handheld, only screen and (max-width: 500px) {
+  .property-details.big .property-details-item .item-thumbnail{
+    margin: 0 0px 20px 60px;
+  }
+  div.invest-item.boxes.miami.isotope-item{
+    left: 17%!important;
+  }
+  div.invest-item.boxes.hotel.isotope-item{
+    left: 17%!important;
+  }
+  div.invest-item.boxes.isotope-item{
+    left: 17%!important;
+}
+
+}
+/**
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 450px  *****************/
+@media handheld, only screen and (max-width: 450px) {
+div.invest-item.boxes.isotope-item{
+    left: 0%!important;
+  }
+ div.invest-item.boxes.miami.isotope-item{
+    left: 0%!important;
+  }
+  div.invest-item.boxes.hotel.isotope-item{
+    left: 0%!important;
+  }
+  .proccess li {
+    width: 100%;
+  }
+  .proccess li span {
+    margin: 0 auto 10px;
+  }
+  .proccess li.next {
+    display: none;
+  }
+  .post-comments .post-comment-item .publish-date{
+    margin-left: 0;
+  }
+  .sponsors{
+
+    margin-top: 20px;
+  }
+  .property-details.big .property-details-item .features {
+    border: none;
+    clear: both;
+    float: none;
+    margin: 20px 0 ;
+    width: 100%;
+  
+  }
+  .property-details.big .property-details-item .item-thumbnail{
+    margin: 0 0px 20px 0px;
+  }
+}
